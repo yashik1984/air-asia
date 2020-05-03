@@ -48,11 +48,11 @@ li {
 
 .header {
   position: relative;
-  margin-bottom: 116px;
+  margin-bottom: 100px;
 }
 
 .header__container {
-  height: 120px;
+  height: 134px;
 }
 
 .logo-header {
@@ -71,8 +71,8 @@ li {
 
 .contacts__menu__header {
   position: absolute;
-  top: 50%;
   right: 0;
+  top: 50%;
   transform: translateY(-50%);
 }
 
@@ -115,10 +115,11 @@ li {
   font-size: 13px;
   color: white;
   text-decoration: underline;
+  margin-bottom: 8px;
 }
 
 .promo {
-  margin-bottom: 245px;
+  margin-bottom: 243px;
 }
 
 .promo__text-content {
@@ -136,7 +137,7 @@ li {
 .promo__text {
   font-size: 18px;
   color: white;
-  margin-bottom: 28px;
+  margin-bottom: 33px;
 }
 
 .btn {
@@ -154,7 +155,7 @@ li {
 }
 
 .hottours {
-  margin-bottom: 150px;
+  margin-bottom: 138px;
 }
 
 .hottours__title-text {
@@ -187,7 +188,7 @@ li {
 
 .hottours__item-images {
   height: 140px;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   overflow: hidden;
 }
 
@@ -198,14 +199,14 @@ li {
 }
 
 .hottours__content {
-  padding: 0 20px 35px 20px;
+  padding: 0 23px 35px 23px;
 }
 
 .hottours__item-title {
   font-size: 24px;
   font-weight: bold;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .hottours__info-text {
@@ -216,7 +217,7 @@ li {
 .hottours__item-text {
   font-size: 14px;
   color: #303030;
-  margin-bottom: 23px;
+  margin-bottom: 30px;
 }
 
 .hottours__item-btn {
@@ -234,7 +235,7 @@ li {
 }
 
 .hottours__info-items {
-  margin-bottom: 15px;
+  margin-bottom: 23px;
 }
 
 .hottours__info-item {
@@ -251,7 +252,7 @@ li {
   width: 36px;
   height: 26px;
   vertical-align: middle;
-  margin-right: 8px;
+  margin-right: 0px;
   background: center center no-repeat;
 }
 
@@ -284,7 +285,7 @@ li {
 }
 
 .news__items {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .news__item:last-child {
@@ -364,7 +365,7 @@ li {
 }
 
 .about-container {
-  margin-bottom: 90px;
+  margin-bottom: 29px;
 }
 
 .about-container:before {
@@ -382,8 +383,8 @@ li {
   display: inline-block;
   vertical-align: top;
   width: 780px;
-  margin-left: -140px;
-  margin-top: 140px;
+  margin-left: -135px;
+  margin-top: 94px;
   position: relative;
 }
 
@@ -444,30 +445,36 @@ li {
 
 .footer__menu {
   position: absolute;
-  bottom: 50px;
+  bottom: 50%;
+  transform: translateY(50%);
   left: 165px;
 }
 
 .logo-footer {
   position: absolute;
   left: 0;
-  bottom: 45px;
+  bottom: 50%;
+  transform: translateY(50%);
 }
 
 .contacts__menu__footer {
   position: absolute;
-  bottom: 36px;
+  bottom: 50%;
+  transform: translateY(50%);
   right: 0;
 }
 
 .contacts__schedule_free {
   text-decoration: none;
+  font-size: 11px;
+  color: #9a9a9a;
 }
 
 .social {
   display: block;
   position: absolute;
-  bottom: 36px;
+  bottom: 50%;
+  transform: translateY(50%);
   right: 260px;
 }
 
