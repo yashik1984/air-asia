@@ -11,9 +11,9 @@
 </head>
 
 <body>
-  <div class="wrap">
-    <div class="container">
-      <header class="header">
+  <div class="wrap wrap_main">
+    <header class="header">
+      <div class="container">
         <a class="logo-header logo" href="#">
           <img src="img/logo-wide.png" width="100px" height="40px" alt="логотип">
         </a>
@@ -28,13 +28,17 @@
           <a href="tel:8 800 700 30 30" class="contacts__phone">8 800 700 30 30</a>
           <div class="contacts__schedule">График работы</div>
         </address>
-      </header>
-      <section class="promo">
+      </div>
+    </header>
+    <section class="promo">
+      <div class="container">
         <h1 class="promo__title">Авторские туры по Азии</h1>
         <p class="promo__text">Открой для себя Азию</p>
         <a href="#" class="promo__btn btn">Подробнее</a>
-      </section>
-      <section class="hottours">
+      </div>
+    </section>
+    <section class="hottours">
+      <div class="container">
         <div class="hottours__title">
           <h2 class="hottours__title-text">Горящие туры</h2>
           <img class="hottours__title-img" src="img/icons/flame.png" alt="">
@@ -49,12 +53,10 @@
                 Тайланд
               </h3>
               <ul class="hottours__info-items">
-                <li class="hottours__info-item">
-                  <img class="hottours__info-picture_calendar" src="img/icons/offers/calendar.png" alt="">
+                <li class="hottours__info-item hottours__info-item_calendar ">
                   <span class="hottours__info-text">7- 12 ночей </span>
                 </li>
-                <li class="hottours__info-item">
-                  <img class="hottours__info-picture_meal" src="img/icons/offers/meal.png" alt="">
+                <li class="hottours__info-item hottours__info-item_meal">
                   <span class="hottours__info-text">Завтраки</span>
               </ul>
               <div class="hottours__item-text">
@@ -75,12 +77,10 @@
                 Бали
               </h3>
               <ul class="hottours__info-items">
-                <li class="hottours__info-item">
-                  <img class="hottours__info-picture_calendar" src="img/icons/offers/calendar.png" alt="">
+                <li class="hottours__info-item hottours__info-item_calendar">
                   <span class="hottours__info-text">7- 12 ночей </span>
                 </li>
-                <li class="hottours__info-item">
-                  <img class="hottours__info-picture_meal" src="img/icons/offers/meal.png" alt="">
+                <li class="hottours__info-item hottours__info-item_meal">
                   <span class="hottours__info-text">Завтраки</span>
               </ul>
               <div class="hottours__item-text">
@@ -101,12 +101,10 @@
                 Индонезия
               </h3>
               <ul class="hottours__info-items">
-                <li class="hottours__info-item">
-                  <img class="hottours__info-picture_calendar" src="img/icons/offers/calendar.png" alt="">
+                <li class="hottours__info-item hottours__info-item_calendar">
                   <span class="hottours__info-text">7- 12 ночей </span>
                 </li>
-                <li class="hottours__info-item">
-                  <img class="hottours__info-picture_meal" src="img/icons/offers/meal.png" alt="">
+                <li class="hottours__info-item hottours__info-item_meal">
                   <span class="hottours__info-text">Завтраки</span>
               </ul>
               <div class="hottours__item-text">
@@ -121,9 +119,10 @@
 
         </ul>
 
-
-      </section>
-      <section class="news">
+      </div>
+    </section>
+    <section class="news">
+      <div class="container">
         <h2 class="news__title">Новости и акции</h2>
         <ul class="news__items">
           <li class="news__item">
@@ -161,24 +160,30 @@
             </ul>
           </div>
         </nav>
-      </section>
-      <section class="about">
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
         <div class="about-container">
           <div class="about__content">
-            <h2 class="about__title">О нас</h2>
-            <div class="about__text">
-              <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
-                абзацев
-                более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
-                навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
-                универсальный код речей.</p>
+            <div class="about__text-content">
+              <h2 class="about__title">О нас</h2>
+              <div class="about__text">
+                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                  абзацев
+                  более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
+                  навык публичных выступлений в домашних условиях. При создании генератора мы использовали
+                  небезизвестный
+                  универсальный код речей.</p>
+              </div>
+              <a class="btn" href="">Подробнее</a>
             </div>
-            <a class="btn" href="">Подробнее</a>
           </div>
         </div>
-
-      </section>
-      <footer class="footer">
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container container__footer-main">
         <a class="logo-footer logo" href="#">
           <img src="img/logo-wide.png" width="100px" height="40px" alt="логотип">
         </a>
@@ -199,8 +204,9 @@
           <div class="contacts__schedule contacts__schedule_free ">Бесплатный звонок по России</div>
           <a href="tel:8 800 700 30 30" class="contacts__phone">8 800 700 30 30</a>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
