@@ -47,9 +47,12 @@ li {
 }
 
 .header {
-  height: 120px;
   position: relative;
   margin-bottom: 116px;
+}
+
+.header__container {
+  height: 120px;
 }
 
 .logo-header {
@@ -115,8 +118,11 @@ li {
 }
 
 .promo {
-  width: 550px;
   margin-bottom: 245px;
+}
+
+.promo__text-content {
+  width: 550px;
 }
 
 .promo__title {
@@ -391,14 +397,15 @@ li {
   display: block;
   background: url(../img/decor/mountains.jpg) -320px 0 / 146% no-repeat;
 }
-.about__content:after{
+
+.about__content:after {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background:  url(http://api.thumbr.it/whitenoise-361x370.png?background=00000000&noise=ffffff&density=54&opacity=78);
+  background: url(http://api.thumbr.it/whitenoise-361x370.png?background=00000000&noise=ffffff&density=54&opacity=78);
   filter: blur(1px);
 }
 
@@ -409,10 +416,12 @@ li {
   margin-bottom: 40px;
 
 }
-.about__text-content{
+
+.about__text-content {
   position: relative;
   z-index: 1;
 }
+
 .about__text {
   font-size: 16px;
   color: #303030;
@@ -424,8 +433,13 @@ li {
   height: 145px;
   position: relative;
 }
-.container__footer-main{
-  border: 1px solid rgba(255, 255 255 .1);
+
+.container__footer-main {
+  height: 145px;
+}
+
+.container__footer-main {
+  border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
 .footer__menu {
@@ -467,42 +481,34 @@ li {
   margin-right: 0;
 }
 
-.social__link:before{
-content: "";
-width: 36px;
-height: 36px;
-display: block;
-background: center center no-repeat;
+.social-link {
+  opacity: .2;
 }
 
-.social__item_icon_telegram .social__link:before {
-  background-image: url("../img/icons/socials/telegram.png");
+.social-link:hover {
+  opacity: 1;
 }
 
-.social__item_icon_telegram .social__link:hover {
-  background-image: url(../img/icons/socials/telegram-hover.png);
+.social-link:before {
+  content: "";
+  width: 36px;
+  height: 36px;
+  display: block;
+  background: center center no-repeat;
 }
 
-.social__item_icon_vk .social__link {
+.social__item_icon_telegram .social-link:before {
+  background-image: url(../img/icons/socials/telegram.png);
+}
+
+.social__item_icon_vk .social-link:before {
   background-image: url(../img/icons/socials/vkontakte.png);
 }
 
-.social__item_icon_vk .social__link:hover {
-  background-image: url(../img/icons/socials/vk-hover.png);
-}
-
-.social__item_icon_fb .social__link {
+.social__item_icon_fb .social-link:before {
   background-image: url(../img/icons/socials/facebook.png);
 }
 
-.social__item_icon_fb .social__link:hover {
-  background-image: url(../img/icons/socials/fb-hover.png);
-}
-
-.social__item_icon_insta .social__link {
+.social__item_icon_insta .social-link:before {
   background-image: url(../img/icons/socials/instagram.png);
-}
-
-.social__item_icon_insta .social__link:hover {
-  background-image: url(../img/icons/socials/insta-hover.png);
 }
