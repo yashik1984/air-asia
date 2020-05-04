@@ -1,0 +1,109 @@
+.hottours {
+  margin-bottom: 138px;
+}
+
+.hottours__title-text {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.hottours__title {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.hottours__title-img {
+  position: absolute;
+  left: 280px;
+  top: 10px;
+}
+
+.hottours__item {
+  min-height: 440px;
+  background: white;
+  margin-right: 25px;
+  width: 360px;
+}
+
+.hottours__item:last-child {
+  margin-right: 0;
+}
+
+.hottours__item-images {
+  height: 140px;
+  margin-bottom: 23px;
+  overflow: hidden;
+}
+
+.hottours__item-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hottours__content {
+  padding: 0 23px 35px 23px;
+}
+
+.hottours__item-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.hottours__info-text {
+  color: #666666;
+  font-size: 16px;
+}
+
+.hottours__item-text {
+  font-size: 14px;
+  color: #303030;
+  margin-bottom: 30px;
+}
+
+.hottours__item-btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #d21d16;
+  border: 1px solid #d21d16;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+
+.hottours__item-btn:hover {
+  color: white;
+  background-color: #d21d16;
+}
+
+.hottours__info-items {
+  margin-bottom: 23px;
+}
+
+.hottours__info-item {
+  margin-right: 37px;
+}
+
+.hottours__info-item:last-child {
+  margin-right: 0px;
+}
+
+.hottours__info-item:before {
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 26px;
+  vertical-align: middle;
+  margin-right: 0px;
+  background: center center no-repeat;
+}
+
+.hottours__info-item_calendar:before {
+  background-image: url(../img/icons/offers/calendar.png);
+}
+
+.hottours__info-item_meal:before {
+  background-image: url(../img/icons/offers/meal.png);
+}

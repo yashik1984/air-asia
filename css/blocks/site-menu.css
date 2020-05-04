@@ -1,0 +1,22 @@
+.site-menu__item {
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.site-menu__item:last-child {
+  margin-right: 0;
+}
+
+.site-menu__link {
+  font-size: 14px;
+  color: white;
+
+}
+
+.site-menu__item_active .site-menu__link {
+  color: #d81a13;
+}
+
+.site-menu__link:hover {
+  color: #d81a13;
+}

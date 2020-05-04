@@ -1,0 +1,6 @@
+.logo-footer {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  transform: translateY(50%);
+}

@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  margin-bottom: 100px;
+}
+.header__container {
+  height: 134px;
+}
+.header__menu {
+  position: absolute;
+  top: 50%;
+  left: 165px;
+  transform: translateY(-50%);
+}
+.header__menu-contacts{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

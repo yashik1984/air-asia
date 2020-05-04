@@ -1,0 +1,23 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  color: white;
+}
+
+.contacts__schedule {
+  font-size: 13px;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+.contacts__free-call {
+  text-decoration: none;
+  font-size: 11px;
+  color: #9a9a9a;
+}
