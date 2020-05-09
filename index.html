@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1100, initial-scale=1.0">
-  <title>air-asia</title>
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
+  <title>Главная</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,20 +14,24 @@
     <div class="wrap__content">
       <header class="header">
         <div class="container header__container">
-          <a class="logo-header logo" href="#">
-            <img src="img/logo-wide.png" width="100px" height="40px" alt="логотип">
-          </a>
-          <nav class="site-menu header__menu">
-            <ul class="site-menu__list">
-              <li class="site-menu__item site-menu__item_active"><a href="#" class="site-menu__link">Главная</a></li>
-              <li class="site-menu__item"><a href="#" class="site-menu__link">Услуги</a></li>
-              <li class="site-menu__item"><a href="#" class="site-menu__link">Отзывы</a></li>
-            </ul>
-          </nav>
-          <address class="contacts header__menu-contacts">
-            <a href="tel:8 800 700 30 30" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__schedule ">График работы</div>
-          </address>
+          <div class="header__col">
+            <a class="logo-header logo" href="#">
+              <img src="img/logo-wide.png" width="100px" height="40px" alt="логотип">
+            </a>
+            <nav class="site-menu header__menu">
+              <ul class="site-menu__list">
+                <li class="site-menu__item site-menu__item_active"><a href="#" class="site-menu__link">Главная</a></li>
+                <li class="site-menu__item"><a href="service.html" class="site-menu__link">Услуги</a></li>
+                <li class="site-menu__item"><a href="#" class="site-menu__link">Отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__col header__col_align_right">
+            <address class="contacts header__menu-contacts">
+              <a href="tel:8 800 700 30 30" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__schedule ">График работы</div>
+            </address>
+          </div>
         </div>
       </header>
       <section class="promo">
@@ -127,22 +131,20 @@
         <div class="container">
           <h2 class="news__title">Новости и акции</h2>
           <ul class="news__items">
-            <li class="news__item">
-              <img class="news__item-img" src="img/content/news/plain.jpg" alt="">
-              <div class="news__item-content">
-                <time class="news__item-data">декабрь 2019</time>
-                <h3 class="news__item-title">Дешевые путевки на Новый Год!</h3>
-                <p class="news__item-text">Проведи новый год в Тайланде</p>
+            <li class="news__item single-news">
+              <img class="single-news__img" src="img/content/news/plain.jpg" alt="">
+              <div class="single-news__content">
+                <time class="single-news__data">декабрь 2019</time>
+                <h3 class="single-news__title">Дешевые путевки на Новый Год!</h3>
+                <p class="single-news__text">Проведи новый год в Тайланде</p>
               </div>
             </li>
-            <li class="news__item">
-
-              <img class="news__item-img" src="img/content/news/surfer.jpg" alt="">
-
-              <div class="news__item-content">
-                <time class="news__item-data">декабрь 2019</time>
-                <h3 class="news__item-title">Акция для серфенгистов!</h3>
-                <p class="news__item-text">В сезон больших волн
+            <li class="news__item single-news">
+              <img class="single-news__img" src="img/content/news/surfer.jpg" alt="">
+              <div class="single-news__content">
+                <time class="single-news__data">декабрь 2019</time>
+                <h3 class="single-news__title">Акция для серфенгистов!</h3>
+                <p class="single-news__text">В сезон больших волн
                   скидка на путевку в Тайланд на остров
                   серфенгистов. Удачного пути!</p>
               </div>
@@ -187,26 +189,30 @@
     </div>
     <footer class="footer">
       <div class="container footer__container">
-        <a class="logo-footer logo" href="#">
-          <img src="img/logo-wide.png" width="100px" height="40px" alt="логотип">
-        </a>
-        <nav class="site-menu footer__menu">
-          <ul class="site-menu__list">
-            <li class="site-menu__item site-menu__item_active"><a href="#" class="site-menu__link">Главная</a></li>
-            <li class="site-menu__item"><a href="#" class="site-menu__link">Услуги</a></li>
-            <li class="site-menu__item"><a href="#" class="site-menu__link">Отзывы</a></li>
+        <div class="footer__col">
+          <a class="logo-footer logo" href="#">
+            <img src="img/logo-wide.png" width="100px" height="40px" alt="логотип">
+          </a>
+          <nav class="site-menu footer__menu">
+            <ul class="site-menu__list">
+              <li class="site-menu__item site-menu__item_active"><a href="#" class="site-menu__link">Главная</a></li>
+              <li class="site-menu__item"><a href="service.html" class="site-menu__link">Услуги</a></li>
+              <li class="site-menu__item"><a href="#" class="site-menu__link">Отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__col footer__col_aligh_right">
+          <ul class="social">
+            <li class="social__item social__item_icon_telegram"><a class="social-link" href=""></a></li>
+            <li class="social__item social__item_icon_vk"><a class="social-link" href=""></a></li>
+            <li class="social__item social__item_icon_fb"><a class="social-link" href=""></a></li>
+            <li class="social__item social__item_icon_insta"><a class="social-link" href=""></a></li>
           </ul>
-        </nav>
-        <ul class="social">
-          <li class="social__item social__item_icon_telegram"><a class="social-link" href=""></a></li>
-          <li class="social__item social__item_icon_vk"><a class="social-link" href=""></a></li>
-          <li class="social__item social__item_icon_fb"><a class="social-link" href=""></a></li>
-          <li class="social__item social__item_icon_insta"><a class="social-link" href=""></a></li>
-        </ul>
-        <address class="contacts footer__menu-contacts ">
-          <div class="contacts__free-call">Бесплатный звонок по России</div>
-          <a href="tel:8 800 700 30 30" class="contacts__phone">8 800 700 30 30</a>
-        </address>
+          <address class="contacts footer__menu-contacts ">
+            <div class="contacts__free-call">Бесплатный звонок по России</div>
+            <a href="tel:8 800 700 30 30" class="contacts__phone">8 800 700 30 30</a>
+          </address>
+        </div>
       </div>
     </footer>
   </div>

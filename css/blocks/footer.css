@@ -1,19 +1,18 @@
-.footer {
-  position: relative;
-}
+
 .footer__container {
   height: 145px;
   border-top: 1px solid rgba(255, 255, 255, .1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.footer__menu {
-  position: absolute;
-  bottom: 50%;
-  transform: translateY(50%);
-  left: 165px;
+.footer__col{
+  display: flex;
+  align-items: center;
 }
-.footer__menu-contacts  {
-  position: absolute;
-  bottom: 50%;
-  transform: translateY(50%);
-  right: 0;
+.footer__col_aligh_right{
+  align-items: flex-end;
+}
+.inner-footer{
+  background-color:black;
 }

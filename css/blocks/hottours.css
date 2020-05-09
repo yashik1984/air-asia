@@ -19,15 +19,16 @@
   top: 10px;
 }
 
-.hottours__item {
-  min-height: 440px;
-  background: white;
-  margin-right: 25px;
-  width: 360px;
+.hottours__items {
+  display: flex;
+  justify-content: space-between;
 }
 
-.hottours__item:last-child {
-  margin-right: 0;
+.hottours__item {
+  display: block;
+  min-height: 440px;
+  background: white;
+  width: calc(100% / 3 - 18px);
 }
 
 .hottours__item-images {
@@ -101,9 +102,9 @@
 }
 
 .hottours__info-item_calendar:before {
-  background-image: url(../img/icons/offers/calendar.png);
+  background-image: url(../../img/icons/offers/calendar.png);
 }
 
 .hottours__info-item_meal:before {
-  background-image: url(../img/icons/offers/meal.png);
+  background-image: url(../../img/icons/offers/meal.png);
 }

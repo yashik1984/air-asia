@@ -1,11 +1,11 @@
 .about-container {
-  margin-bottom: 29px;
+  display: flex;
+  margin-bottom: 35px;
 }
 
 .about-container:before {
+  display: block;
   content: "";
-  display: inline-block;
-  vertical-align: top;
   width: 490px;
   height: 500px;
   background: url("../../img/decor/gates.jpg") center center / cover no-repeat;
@@ -14,10 +14,8 @@
 
 .about__content {
   padding: 80px 90px;
-  display: inline-block;
-  vertical-align: top;
-  width: 780px;
-  margin-left: -135px;
+  max-width: 780px;
+  margin-left: -120px;
   margin-top: 94px;
   position: relative;
 }

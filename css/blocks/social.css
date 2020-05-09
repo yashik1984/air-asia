@@ -1,9 +1,5 @@
 .social {
-  display: block;
-  position: absolute;
-  bottom: 50%;
-  transform: translateY(50%);
-  right: 260px;
+  margin-right: 70px;
 }
 
 .social__item {
@@ -33,17 +29,17 @@
 }
 
 .social__item_icon_telegram .social-link:before {
-  background-image: url(../img/icons/socials/telegram.png);
+  background-image: url(../../img/icons/socials/telegram.png);
 }
 
 .social__item_icon_vk .social-link:before {
-  background-image: url(../img/icons/socials/vkontakte.png);
+  background-image: url(../../img/icons/socials/vkontakte.png);
 }
 
 .social__item_icon_fb .social-link:before {
-  background-image: url(../img/icons/socials/facebook.png);
+  background-image: url(../../img/icons/socials/facebook.png);
 }
 
 .social__item_icon_insta .social-link:before {
-  background-image: url(../img/icons/socials/instagram.png);
+  background-image: url(../../img/icons/socials/instagram.png);
 }
