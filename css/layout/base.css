@@ -68,7 +68,7 @@ table {
 }
 
 .container {
-  max-width: 1140px;
+  width: 1140px;
   margin: 0 auto;
   position: relative;
 }
@@ -96,5 +96,5 @@ table {
   color: #ffffff;
   font-weight: 700;
   line-height: 1;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
