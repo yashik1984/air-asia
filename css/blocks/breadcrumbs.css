@@ -16,10 +16,12 @@
   align-items: center;
 }
 .breadcrumbs__item:after{
-  content: " / ";
+  content: "  /  ";
   font-size: 14px;
   color: #999999;
   text-decoration: none;
+
+  
 }
 .breadcrumbs__item:last-child:after{
   display: none;

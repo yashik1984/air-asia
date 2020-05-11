@@ -80,11 +80,15 @@
 }
 
 .hottours__info-items {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 23px;
 }
 
 .hottours__info-item {
-  margin-right: 37px;
+  display: flex;
+ flex-direction: row;
+  margin-right: 20px;
 }
 
 .hottours__info-item:last-child {
