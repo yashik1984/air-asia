@@ -16,6 +16,8 @@ body {
 }
 ul, li{
   list-style: none;
+  margin: 0;
+  padding:0;
 }
 a {
   display: inline-block;
@@ -85,8 +87,9 @@ table {
   display: flex;
   flex-direction: column;
   background: #001821 url(../../img/bg/headline.jpg) center top no-repeat;
-  min-height: 412px;
+  min-height: 427px;
   padding-bottom: 27px;
+  
 }
 
 .page__title {
@@ -94,5 +97,5 @@ table {
   color: #ffffff;
   font-weight: 700;
   line-height: 1;
-  margin-bottom: 30px;
+  
 }

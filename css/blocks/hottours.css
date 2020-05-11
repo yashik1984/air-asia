@@ -81,14 +81,15 @@
 
 .hottours__info-items {
   display: flex;
-  flex-direction: row;
   margin-bottom: 23px;
+  padding-left: 0;
 }
 
 .hottours__info-item {
   display: flex;
- flex-direction: row;
+ justify-content: space-between;
   margin-right: 20px;
+ 
 }
 
 .hottours__info-item:last-child {
