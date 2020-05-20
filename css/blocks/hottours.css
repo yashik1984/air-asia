@@ -77,6 +77,7 @@
 .hottours__item-btn:hover {
   color: white;
   background-color: #d21d16;
+  transition: 1s;
 }
 
 .hottours__info-items {

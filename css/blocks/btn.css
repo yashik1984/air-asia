@@ -10,4 +10,5 @@
 
 .btn:hover {
   background-color: #f5170e;
+  transition: 1s;
 }

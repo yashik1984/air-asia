@@ -1,14 +1,17 @@
-.separator{
+.separator {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../../img/bg/middleline.jpg) ;
+  background: url(../../img/decor/couple.png) 75% bottom no-repeat,url(../../img/bg/middleline.jpg);
   min-height: 360px;
 }
-.separator__content{
+
+.separator__content {
   max-width: 50%;
+  margin-right: 100px;
 }
-.separator__title{
+
+.separator__title {
   font-size: 48px;
   font-weight: bold;
   color: #ffffff;

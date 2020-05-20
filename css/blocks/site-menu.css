@@ -18,6 +18,7 @@
 
 .site-menu__link:hover {
   color: #d81a13;
+  transition: 1s;
 }
 .site-menu__list{
   display: flex;

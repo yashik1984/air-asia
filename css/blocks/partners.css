@@ -38,6 +38,7 @@
 
 .partners__link:hover {
   filter: none;
+  transition: 1s;
 }
 
 .partners__item:nth-child(4n) .partners__link {

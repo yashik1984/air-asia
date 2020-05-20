@@ -3,6 +3,7 @@
   text-align: right;
 }
 
+
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
@@ -20,4 +21,37 @@
   text-decoration: none;
   font-size: 11px;
   color: #9a9a9a;
+}
+.dropdown{
+  position: relative;
+
+}
+.dropdown:hover .dropdown__menu{ 
+  display: block;
+}
+.dropdown__menu{
+  position: absolute;
+  background-color: #dee1e0;
+  padding: 15px;
+  width: 153px;
+  left: 37px;
+  top: 100%;
+  border: black;
+  display: none;
+  border-radius: 4px;
+}
+.dropdown__item{
+  color: #1e1f20;
+  font-size: 13px;
+  font-weight: bold;
+}
+.dropdown__decor{
+  height: 20px;
+  width: 20px;
+  left: 90px;
+  bottom: 50px;
+  background-color: #dee1e0;
+  position: absolute;
+  transform:rotate(45deg); 
+
 }

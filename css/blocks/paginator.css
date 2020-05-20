@@ -29,6 +29,11 @@
 .paginator__item {
   text-align: center;
 }
+.paginator__link:hover{
+  background-color: white;
+  color: #d21d16;
+  transition: 1s;
+}
 .paginator_theme_light{
   color:black;
 }
@@ -36,8 +41,14 @@
   background-color: white;
   color: #d21d16;
 }
+
 .paginator_theme_light .paginator__item .paginator__link{
 color: #000;
+}
+.paginator_theme_light .paginator__item .paginator__link:hover{
+  background-color: #f5170e;
+  color:white;
+  transition: 1s;
 }
 .paginator_theme_light .paginator__item_active .paginator__link {
   background-color: #f5170e;

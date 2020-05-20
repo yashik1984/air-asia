@@ -29,17 +29,17 @@
 }
 
 .social__item_icon_telegram .social-link:before {
-  background-image: url(../../img/icons/socials/telegram.png);
+  background: url(../../img/icons/socials/css_sprites.png) -10px -10px;
 }
 
 .social__item_icon_vk .social-link:before {
-  background-image: url(../../img/icons/socials/vkontakte.png);
+  background: url(../../img/icons/socials/css_sprites.png) -66px -10px;
 }
 
 .social__item_icon_fb .social-link:before {
-  background-image: url(../../img/icons/socials/facebook.png);
+  background: url(../../img/icons/socials/css_sprites.png) -122px -10px;
 }
 
 .social__item_icon_insta .social-link:before {
-  background-image: url(../../img/icons/socials/instagram.png);
+  background: url(../../img/icons/socials/css_sprites.png) -178px -10px;
 }
