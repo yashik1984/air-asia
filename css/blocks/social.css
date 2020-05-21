@@ -13,11 +13,12 @@
 }
 
 .social-link {
-  opacity: .2;
+  opacity: .4;
 }
 
 .social-link:hover {
   opacity: 1;
+  transition: opacity .3s;
 }
 
 .social-link:before {

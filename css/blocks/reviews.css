@@ -24,13 +24,19 @@
   align-items: center;
   font-size: 24px;
   font-weight: bold;
+  color:black;
+  margin-bottom: 11px;
+}
+.review__user:hover{
   color: #2e77a4;
+  text-decoration: underline;
+  
 }
 
 .review__user:after {
   content: url(../../img/icons/socials/vk-hover.png);
   height: 29px;
-  margin-bottom: 14px;
+  margin-left: 14px;
 }
 
 .avatar {
@@ -45,8 +51,13 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-}
 
+}
+li.review__tag-item{
+  background-color: #b9eae4;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
 .tag {
   font-size: 13px;
   color: #303030;
@@ -64,6 +75,7 @@
   font-size: 16px;
   color: #818181;
   margin-bottom: 50px;
+  line-height: 1.6;
 }
 .review__date{
   font-size: 14px;
